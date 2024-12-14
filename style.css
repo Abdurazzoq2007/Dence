@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(./asstes/bcg.svg);
+    background-repeat: no-repeat;
+    background-size: 1370px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 40px 0px 40px;
+    font-family: "Roboto",sans-serif;
+}
+.nav_ul_li_a{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_ul_li_a ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.nav_ul_li_a ul li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.ul_button{
+    width: 30%;
+    background-color: rgba(113, 64, 235, 1);
+    text-align: center;
+    padding: 1.5% 1%;
+    border-radius: 100px;
+    transition: .3s;
+}
+.ul_button li a{
+    color: #fff;
+}
+.header_text{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_h1_h2_p_button{
+    margin-top: 6%;
+}
+.text_h1_h2_p_button h1{
+    color: #fff;
+    font-size: 89px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.text_h1_h2_p_button h2{
+    color: #fff;
+    font-size: 88px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.text_h1_h2_p_button p{
+    color: #fff;
+    font-size: 21px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1.5%;
+}
+.header_button{
+    width: 35%;
+    background-color: rgba(113, 64, 235, 1);
+    text-align: center;
+    padding: 2% 1%;
+    border-radius: 100px;
+    margin: 5% 100% 0 30%;
+}
+.header_button li a{
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+}
+.main_img_text{
+    width: 100%;
+    height: 500px;
+}
+.main_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_nav h1{
+    font-size: 67px;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+    color: rgba(46, 44, 52, 1);
+    margin: 20px 171px 0 118px;
+}
+.main_text{
+    position: relative;
+    width: 300px;
+    height: 280px;
+    margin:2% 0 0 5%;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px; 
+    column-gap: 20px; 
+    margin: 20px 171px 0 118px;
+}
+.main_text li{
+    list-style:decimal;
+    font-size: 28px;
+    font-weight: 200;
+    font-family: "Roboto",sans-serif;
+}
+.main_text a{
+    margin-left: 5px;
+    color: rgba(46, 44, 52, 1);
+    font-weight: 200;
+}
+.main_button{
+    width: 65%;
+    background-color: rgba(113, 64, 235, 1);
+    text-align: center;
+    padding: 3% 1%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid rgba(113, 64, 235, 1);
+}
+.main_button li{
+    list-style: none;
+}
+.main_button a{
+    color: #fff;
+    font-size: 18px;
+}
+.main_car_img{
+    position: relative;
+    overflow: hidden;
+}
+.move{
+    width: 100%;
+    height: 900px;
+    background:rgba(245, 245, 247, 1);
+    overflow: hidden;
+}
+.move_nav {
+    font-weight: 200;
+    font-family: "Roboto",sans-serif;
+}
+.move_nav h1{
+    font-weight: 200;
+    font-size: 67px;
+    margin: 50px 171px 0 118px;
+}
+.move_nav p{
+    width: 100%;
+    margin:20px 722px 0px 123px
+}
+.move_cards {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin:40px 123px 0px 123px
+}
+.card{
+    width: 340px;
+    height: 517px    ;
+    background-color: #fff;
+    margin: 23px;
+    margin-top: 10%;
+    border-radius: 16px;
+}
+.card img{
+    margin:40px 22px 0 22px
+}
+.cards_text{
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    margin:40px 22px 0 22px;
+}
+.cards_text span{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+}
+.cards_text li a{
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: rgba(241, 238, 248, 1);
+    color: rgba(113, 64, 235, 1);
+}
+.cards_button{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    margin:40px 22px 0 22px
+}
+.cards_button h1{
+    font-size: 29px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: rgba(73, 70, 79, 1);
+}
+.cards_button p{
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: rgba(73, 70, 79, 1);
+    margin-top: 3px;
+}
+.btn{
+    width: 50%;
+    padding: 15px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    background-image: url(./asstes/vector\ \(4\).svg);
+    background-repeat: no-repeat;
+    background-position:85%;
+    border-radius: 999px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn a{
+    font-size: 18px;
+    margin-left: 20px;
+    color: rgba(73, 70, 79, 1);
+}
+.btn:hover{
+    width: 55%;
+}
+.girl{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center; 
+    background:rgba(245, 245, 247, 1);
+}
+.girl_cards{
+    width: 100%;
+    display: flex;
+}
+.girl_text{
+    margin: 20px 80px 0px 118px;
+}
+.girl_cards .girl_text h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 67px;
+    font-weight: 400;
+}
+.girl_cards .girl_img img{
+    width: 597px;
+    height: 378px;
+    margin: 20px 110px 0px 0px;
+}
+.girl_text p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(46, 44, 52, 1);
+    margin-top: 10px;
+}
+.girl_text .btn{
+    width: 30%;
+    margin-top: 25px;
+    transition: .1s;
+}
+.girl_text .btn a{
+    margin-left: 8%;
+    color: rgba(46, 44, 52, 1);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+.girl_text .btn:hover{
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
